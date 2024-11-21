@@ -171,7 +171,7 @@ p {
   align-items: flex-start;
   gap: 11rem;
   width: 100%;
-  
+
   flex-wrap: wrap;
 
   img {
@@ -309,7 +309,7 @@ p {
 .proposal {
   border-radius: 2.8125rem;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   width: 100%;
   align-items: center;
   gap: -44.6875rem;
@@ -317,12 +317,28 @@ p {
 
   .proposal-card {
     display: flex;
-    flex-wrap:wrap;
-    width: 100vw;
-    height: 21.6875rem;
-    padding: 0rem 6.25rem;
+    width: 77.5rem;
+    height: 45vh;
+    padding: 0rem 3.75rem;
     align-items: center;
     gap: 17.1875rem;
     flex-shrink: 0;
+  }
+
+  .text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.625rem;
+    width:25vw;
+
+    button {
+      display: flex;
+      padding: 1.25rem 2.1875rem;
+      align-items: flex-start;
+      gap: 0.625rem;
+      border-radius: 0.875rem;
+      background: var(--Dark, #191A23);
+    }
   }
 }
