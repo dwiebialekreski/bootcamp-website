@@ -38,6 +38,18 @@ p {
   line-height: normal;
 }
 
+.isdark {
+  display: inline-flex;
+  padding: 1.25rem 2.1875rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.875rem;
+  background: var(--Dark, #191A23);
+  color:#FFF;
+  font-size: 1.25rem;
+
+}
+
 * {
 
   box-sizing: border-box;
@@ -309,7 +321,9 @@ p {
 .proposal {
   border-radius: 2.8125rem;
   display: flex;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
+  height: 45vh;
   width: 100%;
   align-items: center;
   gap: -44.6875rem;
@@ -317,8 +331,8 @@ p {
 
   .proposal-card {
     display: flex;
-    width: 77.5rem;
-    height: 45vh;
+    width: 100%;
+    /* justify-content: space-between; */
     padding: 0rem 3.75rem;
     align-items: center;
     gap: 17.1875rem;
@@ -330,15 +344,13 @@ p {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.625rem;
-    width:25vw;
+    width: 30vw;
 
-    button {
-      display: flex;
-      padding: 1.25rem 2.1875rem;
-      align-items: flex-start;
-      gap: 0.625rem;
-      border-radius: 0.875rem;
-      background: var(--Dark, #191A23);
-    }
+
   }
+  .proposal-photo
+  {
+    justify-self: right;
+  }
+
 }
