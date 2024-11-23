@@ -434,10 +434,26 @@ p {
     }
   }
 }
-.contact-form
-{
-  display: inline-flex;
 
-align-items: flex-start;
-gap: 2.5rem;
+.contact-us {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2.5rem;
+
+  .contents {
+    display: inline-flex;
+    padding: 0rem 6.25rem;
+    align-items: center;
+    gap: -22.9375rem;
+
+    {
+      .contact-form
+      {
+        
+      }
+    }
+  }
+
+
 }
