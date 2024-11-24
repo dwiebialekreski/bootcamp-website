@@ -542,6 +542,7 @@ p {
 .footer-block {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
   align-items: flex-start;
   gap: 0.625rem;
@@ -639,7 +640,8 @@ p {
 
     .email-form {
       justify-content: center;
-      display: flex;
+      display: inline-flex;
+      flex-direction: row;
       width: 80%;
       padding: 3.625rem 2.5rem;
       align-items: flex-start;
@@ -650,7 +652,7 @@ p {
       .mail {
         display: flex;
         color: #FFF;
-        width: 17.8125rem;
+        width: 17vw;
         padding: 1.375rem 2.1875rem;
         align-items: flex-start;
         gap: 0.625rem;
@@ -666,6 +668,7 @@ p {
 
       .button_container {
         display: flex;
+        width: 18vw;
         color: black;
         padding: 1.25rem 2.1875rem;
         align-items: flex-start;
@@ -674,6 +677,7 @@ p {
         background: var(--Green, #B9FF66);
 
         p {
+          
           margin: 0;
         }
       }
