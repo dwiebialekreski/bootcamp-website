@@ -1,3 +1,8 @@
+* {
+  /* outline: 1px solid #f00 !important; */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 body {
   width: 100%;
 }
@@ -73,6 +78,9 @@ h4 {
 
   .heading {
     gap: 2.5rem;
+  } .heading p 
+  {
+   max-width:38rem;
   }
 
   p {
@@ -120,7 +128,7 @@ h4 {
   .button_container, .mail
   
   {
-    width:20rem;
+    width:15rem;
   }
 }
 
@@ -128,6 +136,10 @@ h4 {
   .main
   {
     padding: 0rem 6.25rem;
+  }
+  .frame h1
+  {
+    width:28rem;
   }
   h1 {
     font-size: 3rem;
@@ -183,6 +195,10 @@ h4 {
   max-width:45rem;
   font-size:1rem;
  }
+ .heading p 
+{
+ max-width:18rem;
+}
   
   
 }
@@ -195,13 +211,17 @@ h4 {
   h1 {
     font-size: 2.4rem;
   }
+  .frame13 h1
+  {
+    width:24rem;
+  }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
 
   h4 {
@@ -232,11 +252,11 @@ h4 {
   }
   .text-button
   {
-    width:10rem;
+    width:25rem;
   }
   .text-button h3 p
   {
-    width:25rem;
+    width:100%;
   }
   .proposal-card
   {
@@ -250,7 +270,7 @@ h4 {
  .footer
  {
   max-width:28rem;
-    padding: 1rem 1rem 0.8rem 1rem;
+    padding: 1.5rem 1.5rem 1.2rem 1.5rem;
  }
  .email-form
   {
@@ -265,19 +285,27 @@ h4 {
     width:20rem;
   
   }
-  p
-  {
-    font-size:1.2rem;
-  }
 }
 
 @media (max-width: 480px) {
- main 
+ .main 
  {
-  padding: 0rem 1rem;
+  padding: 0rem 1rem 0rem 1rem;
+ }
+ /* .landing, .services, .proposal, .working-process, .contact-us, .footer-block
+ {
+  max-width:20rem;
+ } */
+ .heading p 
+ {
+  max-width:20rem;
  }
   h1 {
     font-size: 2rem;
+  }
+  .frame13 h1
+  {
+    width:20rem;
   }
 
   h2 {
@@ -308,7 +336,8 @@ h4 {
   }
 
   .card {
-    min-width: 17rem;
+    min-width: 13rem;
+    max-width:20rem;
   }
 
   .heading {
@@ -317,8 +346,8 @@ h4 {
 
   .proposal {
     height: 40rem;
-    width: 30rem;
-    padding: 0rem 2rem;
+    max-width: 23rem;
+    padding: 0rem 1rem;
   }
 
   .label {
@@ -332,11 +361,13 @@ h4 {
   }
   .proposal-card
   {
+    max-width: 20rem;
     padding: 1.3rem 1.3rem;
     gap:0rem;
   }
   .block
   {
+    max-width:30rem;
     padding: 1.7rem 3rem 2rem 3rem;
   }
   input, textarea 
@@ -349,6 +380,8 @@ h4 {
   }
   .footer
   {
+
+    max-width:25rem;
     padding: 1.5rem 1.7rem 1.5rem 1.7rem;
   
   }
@@ -362,9 +395,14 @@ h4 {
   }
   .email-form
   {
-    
+    max-width:17rem;
     padding: 1.7rem 1.5rem;
     font-size : 1rem;
+  
+  }
+  .footer-block
+  {
+    max-width:25rem;
   }
 }
 
@@ -402,7 +440,7 @@ img {
 }
 
 .main {
-
+margin:0;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -581,7 +619,7 @@ img {
   }
 
   p {
-    width: 36.25rem;
+    /* width: 36.25rem; */
     margin: 0;
     margin-bottom: 2rem;
   }
@@ -655,6 +693,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  width:100%;
 }
 
 .grey {
@@ -819,7 +858,7 @@ img {
     .block {
       display: flex;
       flex-direction: column;
-      width:50rem;
+      /* width:50rem; */
       align-items: flex-start;
       gap: 0.625rem;
 
@@ -986,6 +1025,7 @@ img {
     .email-form {
       justify-content: center;
       display: inline-flex;
+      flex-wrap:wrap;
       flex-direction: row;
       /* width: 80%; */
       /* padding: 3.625rem 2.5rem; */
