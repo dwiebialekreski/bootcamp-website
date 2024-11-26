@@ -56,7 +56,7 @@ h4 {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 3.75rem;
   }
 
   h2 {
@@ -64,11 +64,11 @@ h4 {
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .heading {
@@ -84,6 +84,10 @@ h4 {
   .text-button
   {
     width: 30rem;
+    padding: 0rem 3.75rem;
+  }
+  .frame13 h1{
+    width:34rem;
   }
   .main
   {
@@ -498,7 +502,7 @@ img {
 
   h1 {
     margin: 0;
-    width: 30vw;
+    
   }
 
   p {
